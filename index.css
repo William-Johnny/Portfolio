@@ -208,8 +208,7 @@ i{
 
 .burger-icon{
   position: sticky;
-  top: 35px;
-  left: 35px;
+  top: 217px;
   z-index: 1;
 }
 
@@ -260,7 +259,7 @@ h1{
 
 #openBtn{
   position: relative;
-  left: 35px;
+  left: 69px;
 }
 
 #textDiv{
