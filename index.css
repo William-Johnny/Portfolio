@@ -32,17 +32,11 @@ section{
   margin-bottom: 80px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #left{
-    background-color: white;
     border-bottom-color: rgb(72,49,212);
     border-bottom-style: solid;
-    padding: 100px;
-    height: 500px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
   }
 }
 
