@@ -36,6 +36,11 @@ section{
   #main {
     flex-wrap: wrap;
   }
+
+  #left{
+    border-bottom-color: rgb(72,49,212);
+    border-bottom-style: solid;
+  }
 }
 
 
