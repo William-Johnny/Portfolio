@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Paco</title>
+    <link rel="stylesheet" type="text/css" href="details.css">
+  </head>
+
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a id="closeBtn" href="#" class="close">×</a>
+      <ul>
+        <li><a href="../index/index.html">Accueil</a></li>
+        <li><a href="../presentation/presentation.html">Mon travail</a></li>
+        <li><a href="../presentation/script.html">Mes scripts</a></li>
+        <li><a href="../presentation/contact.html">Contact</a></li>
+        <li><a href="../presentation/cv.html">C.V.</a></li>
+      </ul>
+    </div>
+
+    <a href="#" id="openBtn">
+    <span class="burger-icon">
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+    </span>
+    <!-- <a href="#" id="openBtn"><div id="test"></div></a> -->
+    </a>
+
+
+    <main>
+            <h1>Paco</h1>
+
+            <!-- Conteneur principal de tout le diaporama -->
+            <div class="diapo">
+                <!-- Conteneur des "diapos" -->
+                <div class="elements">
+                    <!-- Première diapo -->
+                    <div class="element active">
+                        <img src="../img/paco.png" alt="Image 1">
+                    </div>
+                    <!-- Deuxième diapo -->
+                    <div class="element">
+                        <img src="../img/lost.png" alt="Image 2">
+                    </div>
+                    <!-- Troisième diapo -->
+                    <div class="element">
+                        <img src="../img/alien.png" alt="Image 3">
+                    </div>
+                    <!-- Quatrième diapo -->
+                    <div class="element">
+                        <img src="../img/cap.png" alt="Image 2">
+                    </div>
+                </div>
+                <!-- Flèches de navigation -->
+                <i id="nav-gauche" class="las la-chevron-left"><--</i>
+                <i id="nav-droite" class="las la-chevron-right">--></i>
+            </div>
+    </main>
+
+    <div id="main"> 
+      <h3>Contexte :</h3>  Après un cours de Numérique et Science de L’informatique sur les dictionnaires je me suis demandé s’il était possible, en utilisant ce système de faire un assistant personnel, avec lequel communiquer sur le modèle de Siri d’Apple ou Jarvis dans Iron Man. Voilà comment est né PACO (Personal Assistant for Central Operations).
+      <br>
+      <h3>Sujet :</h3> Création d’un assistant personnel connecté
+      <br>
+      <h3>Objectif :</h3> Me familiariser avec Python
+      <br>
+      <h3>Solutions mises en place pour atteindre l’objectif :</h3>
+
+      <ul>
+        <li>Utilisation d’un dictionnaire pour faire un système de questions-réponses. J’ai entré dans le dictionnaire des questions fréquentes et les réponses à ces questions, de façon à ce que lorsque l’on rentre la question l’assistant renvoie la réponse.</li>
+        <br>
+        <li>Installation d’un programme qui calcule la distance de Levenshtein, c’est à dire la différence entre un mot et un autre, de façon à ce que si l’on fait une erreur d’orthographe dans la question, l’assistant puisse malgré tout renvoyer la réponse. </li>
+        <br>
+        <li>Rajout d’une condition qui permet à l’assistant d’ouvrir Google s’il ne connaît pas la réponse à une question. </li>
+        <br>
+        <li>J’envisage d’autres modifications, comme une interface Tkinter, ou lui permettre de renvoyer directement la réponse de Google sans l’ouvrir (utilisation du module Sélénium). </li>
+      </ul>
+    </div>
+    <script src="details.js"></script>
+  </body>
+</html>
+
