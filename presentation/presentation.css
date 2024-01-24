@@ -122,10 +122,10 @@ i{
 /* Icône burger */
 .burger-icon span {
   display: block;
-  width: 35px;
-  height: 5px;
+  width: 50px;
+  height: 6px;
   background-color: lightgreen;
-  margin: 6px 0;
+  margin: 10px 0;
 }
 
 .burger-icon{
