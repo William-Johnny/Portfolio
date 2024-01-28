@@ -12,16 +12,16 @@ body{
 }
 
 h1{
-font-size: 4.4em;
-color: lightgreen;
-font-family: 'Varela Round', sans-serif;
-text-align: left;
+  font-size: 4.4em;
+  color: lightgreen;
+  font-family: 'Varela Round', sans-serif;
+  text-align: left;
 }
 
 p{
-color: white;
-font-family: 'Varela Round', sans-serif;
-font-size: 1.6em
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.6em
 }
 
 #tel{
@@ -52,156 +52,162 @@ img{
 }
 
 i{
-font-size: 55px;
-position: absolute;
-top: 35px;
-right: 35px;
-color: lightgreen;
+  font-size: 55px;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  color: lightgreen;
 }
 
 /* Sidenav menu */
 .sidenav {
-height: 100%;
-width: 250px;
-position: fixed;
-z-index: 1;
-top: 0;
-left: -250px;
-background-color: #e8e8e8;
-padding-top: 60px;
-transition: left 0.5s ease;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #e8e8e8;
+  padding-top: 60px;
+  transition: left 0.5s ease;
 }
 
 /* Sidenav menu links */
 .sidenav a {
-padding: 8px 8px 8px 32px;
-text-decoration: none;
-font-size: 25px;
-color: #818181;
-display: block;
-transition: 0.3s;
-margin-top: 32px;
-margin-bottom: 32px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .sidenav a:hover {
-color: #111;
+  color: #111;
 }
 
 .sidenav ul {
-list-style-type: none;
-padding: 0;
-margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Active class */
 .sidenav.active {
-left: 0;
+  left: 0;
 }
 
 /* Close btn */
 .sidenav .close {
-position: absolute;
-top: 0;
-right: 25px;
-font-size: 36px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
 }
 
 /* Icône burger */
 .burger-icon span {
-display: block;
-width: 35px;
-height: 5px;
-background-color: lightgreen;
-margin: 6px 0;
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: lightgreen;
+  margin: 6px 0;
 }
 
 .burger-icon{
-position: absolute;
-top: 35px;
-left: 35px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
 }
 
 li{
-font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 #txt{
-width: 50%;
+  width: 50%;
 }
 
 .divOfStory{
-width: 900px;
-padding: 20px;
-border-top-color: lightgreen;
-border-top-style: solid;
+  width: 900px;
+  padding: 20px;
+  border-top-color: lightgreen;
+  border-top-style: solid;
 }
 
 .story{
-margin-top: 50px;
-font-family: 'Varela Round', sans-serif;
-text-decoration: none;
-color: lightgreen;
-font-size: 1.6em;
-text-align: left;
+  margin-top: 50px;
+  font-family: 'Varela Round', sans-serif;
+  text-decoration: none;
+  color: lightgreen;
+  font-size: 1.6em;
+  text-align: left;
 }
 
 a + p{
-margin-top: 25px;
-font-family: 'Varela Round', sans-serif;
-color: lightgreen;
+  margin-top: 25px;
+  font-family: 'Varela Round', sans-serif;
+  color: lightgreen;
 }
 
 #phone{
-text-decoration: none;
-color: white;
-font-family: 'Varela Round', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
 }
 
 @media screen and (max-width: 1440px) {
 
-h1{
-  font-size: 7.4em;
-}
+  h1{
+    font-size: 7.4em;
+  }
 
-p{
-  font-size: 50px;
-}
+  p{
+    font-size: 50px;
+  }
 
-.sidenav a {
-  font-size: 75px;
-}
+  .sidenav a {
+    font-size: 75px;
+  }
 
-.sidenav{
-  width: 520px;
-  left: -600px;
-}
+  .sidenav{
+    width: 520px;
+    left: -600px;
+  }
 
-.sidenav .close{
-  font-size: 70px;
-}
+  .sidenav .close{
+    font-size: 70px;
+  }
 
-.burger-icon span{
-  width: 101px;
-  height: 15px;
-  margin: 20px 0;
-}
+  .burger-icon span{
+    width: 101px;
+    height: 15px;
+    margin: 20px 0;
+  }
 
-.divOfStory{
-  position: relative;
-  top: 635px;
-}
+  .divOfStory{
+    position: relative;
+    top: 635px;
+  }
 
-#txt{
-  position: relative;
-  top: 593px;
-}
+  #txt{
+    position: relative;
+    top: 593px;
+  }
 
-.divOfStory > a{
-  font-size: 50px;
-} 
+  .divOfStory > a{
+    font-size: 50px;
+  } 
 
-a + p{
-  font-size: 40px;
-}
+  a + p{
+    font-size: 40px;
+  }
+
+  img{
+    height: 1250px;
+    width: 830px;
+  }
+  
 }
