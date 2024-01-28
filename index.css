@@ -28,8 +28,7 @@ section{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 80px;
+  padding-bottom: 120px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -46,20 +45,20 @@ section{
   #green{
     position: relative;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   img{
-    position: absolute;
-    left: 25%;
-    top: 107%;
     width: 517px;
     height: 616px;
-    margin-top: 80px;
   }
 
   #main{
     position: relative;
-    top: 898px;
+    top: 825px;
   }
   
 }
@@ -82,7 +81,7 @@ section{
   }
   
   h1+p{
-    font-size: 30px;
+    font-size: 1.3em;
   }
 }
 
@@ -100,7 +99,7 @@ section{
   }
   
   h1+p{
-    font-size: 1.3em;
+    font-size: 30px;
   }
   
 }
@@ -117,15 +116,16 @@ section{
   }
   
   #green{
+    height: 823px;
     position: absolute;
     top: 0px;
     right: -20px;
-    width: 50%;
+    width: 537px;
   }
   
   img{
     position: absolute;
-    left: 60%;
+    left: -24%;
     top: 25%;
     width: 250px;
     height: 300px;
@@ -280,15 +280,15 @@ li{
 }
 
 #green{
-  
-  height: 100%;
   background-color: lightgreen;
-  z-index: -1;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 h1 + p{
   color: white;
   font-family: 'Varela Round', sans-serif;
+
 }
 
 h1{
