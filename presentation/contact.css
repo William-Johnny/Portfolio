@@ -167,4 +167,41 @@ h1{
 p{
   font-size: 50px;
 }
+
+.sidenav a {
+  font-size: 75px;
+}
+
+.sidenav{
+  width: 520px;
+  left: -600px;
+}
+
+.sidenav .close{
+  font-size: 70px;
+}
+
+.burger-icon span{
+  width: 101px;
+  height: 15px;
+  margin: 20px 0;
+}
+
+.divOfStory{
+  position: relative;
+  top: 635px;
+}
+
+#txt{
+  position: relative;
+  top: 593px;
+}
+
+.divOfStory > a{
+  font-size: 50px;
+} 
+
+a + p{
+  font-size: 40px;
+}
 }

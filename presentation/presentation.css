@@ -4,11 +4,11 @@ body{
 }
 
 #main{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .miniature{
@@ -160,10 +160,31 @@ i{
 
 #openBtn{
   position: relative;
-  left: 74px;
+  left: 20px;
   top: 17px;
 }
 
 li{
   font-family: 'Varela Round', sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+  .sidenav a {
+    font-size: 75px;
+  }
+
+  .sidenav{
+    width: 520px;
+    left: -600px;
+  }
+
+  .sidenav .close{
+    font-size: 70px;
+  }
+
+  .burger-icon span{
+    width: 101px;
+    height: 15px;
+    margin: 20px 0;
+  }
 }
