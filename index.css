@@ -63,47 +63,43 @@ section{
   
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1440px) {
   .see{
     font-size: xx-large;
   }
   
-  h2+p{
+  p{
     font-size: 2.6em;
   }
   
   h2{
-    font-size: 4.0em;
-  }
-  
-  h1{
-    font-size: 4.4em;
-  }
-  
-  h1+p{
-    font-size: 1.3em;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  h2+p{
-    font-size: 1.6em
-  }
-  
-  h2{
-    font-size: 3.2em;
+    font-size: 4.2em;
   }
   
   h1{
     font-size: 7.4em;
   }
-  
-  h1+p{
-    font-size: 30px;
+
+  .see{
+    padding: 15px !important;
   }
-  
 }
 
+h2+p{
+  font-size: 1.6em
+}
+
+h2{
+  font-size: 3.2em;
+}
+
+h1{
+  font-size: 7.4em;
+}
+
+h1+p{
+  font-size: 30px;
+}
 
 @media screen and (min-width: 1440px) {
   #left{
@@ -116,10 +112,10 @@ section{
   }
   
   #green{
-    height: 823px;
+    height: 90%;
     position: absolute;
     top: 0px;
-    right: -20px;
+    right: -5px;
     width: 537px;
   }
   
