@@ -14,7 +14,7 @@ section{
 }
 
 #pres{
-  width: 100%;
+  width: 104%;
   height: 104%;
   position: relative;
   top: -74px;
@@ -39,26 +39,72 @@ section{
     
   }
 
+  #bleu{
+    width: 100%;
+  }
+
+  #green{
+    position: relative;
+    width: 100%;
+  }
+
+  img{
+    position: absolute;
+    left: 25%;
+    top: 107%;
+    width: 517px;
+    height: 616px;
+    margin-top: 80px;
+  }
+
+  #main{
+    position: relative;
+    top: 898px;
+  }
+  
+}
+
+@media screen and (max-width: 240px) {
   .see{
     font-size: xx-large;
   }
-
+  
   h2+p{
     font-size: 2.6em;
   }
-
+  
   h2{
     font-size: 4.0em;
   }
-
+  
   h1{
-    font-size: 7.4em;
+    font-size: 4.4em;
   }
-
+  
   h1+p{
     font-size: 2.3em;
   }
 }
+
+@media screen and (min-width: 240px) {
+  h2+p{
+    font-size: 1.6em
+  }
+  
+  h2{
+    font-size: 3.2em;
+  }
+  
+  h1{
+    font-size: 7.4em;
+  }
+  
+  h1+p{
+    font-size: 1.3em;
+  }
+  
+}
+
 
 @media screen and (min-width: 1440px) {
   #left{
@@ -66,20 +112,24 @@ section{
     border-right-style: solid;
   }
 
-  h2+p{
-    font-size: 1.6em
+  #bleu{
+    width: 70%;
   }
-
-  h2{
-    font-size: 3.2em;
+  
+  #green{
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    width: 50%;
   }
-
-  h1{
-    font-size: 4.4em;
-  }
-
-  h1+p{
-    font-size: 1.3em;
+  
+  img{
+    position: absolute;
+    left: 60%;
+    top: 25%;
+    width: 250px;
+    height: 300px;
+    margin-top: 80px;
   }
 }
 
@@ -208,6 +258,8 @@ i{
 
 .burger-icon{
   position: sticky;
+  top: 35px;
+  left: 35px;
   z-index: 1;
 }
 
@@ -215,19 +267,11 @@ li{
   font-family: 'Varela Round', sans-serif;
 }
 
-img{
-  position: absolute;
-  left: 60%;
-  top: 25%;
-  width: 250px;
-  height: 300px;
-  margin-top: 80px;
-}
+
 
 #bleu{
   
   background-color: rgb(72,49,212);
-  width: 70%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -236,10 +280,7 @@ img{
 }
 
 #green{
-  position: absolute;
-  top: 0px;
-  right: -20px;
-  width: 50%;
+  
   height: 100%;
   background-color: lightgreen;
   z-index: -1;
@@ -259,6 +300,7 @@ h1{
 #openBtn{
   position: relative;
   left: 32px;
+  top: 27px;
 }
 
 #textDiv{
