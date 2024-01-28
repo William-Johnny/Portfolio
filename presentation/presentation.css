@@ -27,11 +27,6 @@ body{
     transform: scale(1.4); 
     margin: 86px;
   }
-
-  #main{
-    position: relative;
-    left: -30px;
-  }
 }
 
 .miniature:hover{
