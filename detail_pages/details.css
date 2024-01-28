@@ -55,9 +55,11 @@ main{
 
 #nav-droite{
     right: 0px;
+    cursor: pointer;
 }
 #nav-gauche{
     left: 0px;
+    cursor: pointer;
 }
 
 .elements{
