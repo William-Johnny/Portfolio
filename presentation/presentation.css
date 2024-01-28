@@ -11,17 +11,26 @@ body{
     justify-content: center;
 }
 
-.miniature{
-  background-color: white;
-  margin: 10px;
-  height: 305px;
-  width: 330px;
-}
 
 @media screen and (max-width: 700px) {
   .miniature{
-    transform: scale(1.4);
+    background-color: white;
+    margin: 10px;
+    height: 305px;
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .miniature{
+    background-color: white;
+    transform: scale(1.4); 
     margin: 86px;
+  }
+
+  #main{
+    position: relative;
+    left: -30px;
   }
 }
 
