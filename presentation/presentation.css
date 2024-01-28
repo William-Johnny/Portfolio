@@ -1,9 +1,10 @@
 body{
-    background-color: rgb(72,49,212);
+  background-color: rgb(72,49,212);
+  overflow-x: hidden;
 }
 
 #main{
-    width: 100%;
+    width: 107%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,10 +12,17 @@ body{
 }
 
 .miniature{
-    background-color: white;
-    margin: 10px;
-    height: 305px;
-    width: 330px;
+  background-color: white;
+  margin: 10px;
+  height: 305px;
+  width: 330px;
+}
+
+@media screen and (max-width: 700px) {
+  .miniature{
+    transform: scale(1.4);
+    margin: 86px;
+  }
 }
 
 .miniature:hover{
@@ -122,16 +130,22 @@ i{
 /* Icône burger */
 .burger-icon span {
   display: block;
-  width: 50px;
-  height: 6px;
+  width: 35px;
+  height: 5px;
   background-color: lightgreen;
-  margin: 10px 0;
+  margin: 6px 0;
 }
 
 .burger-icon{
-  position: relative;
+  position: sticky;
   top: 35px;
   left: 35px;
+}
+
+#openBtn{
+  position: relative;
+  left: 74px;
+  top: 17px;
 }
 
 li{
