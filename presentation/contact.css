@@ -187,14 +187,8 @@ a + p{
     margin: 20px 0;
   }
 
-  .divOfStory{
-    position: relative;
-    top: 635px;
-  }
-
   #txt{
-    position: relative;
-    top: 593px;
+    margin-top: 785px;
   }
 
   .divOfStory > a{
