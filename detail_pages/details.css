@@ -173,3 +173,23 @@ li{
   top: 0px;
 }
 
+@media screen and (max-width: 1440px) {
+  .sidenav a {
+    font-size: 75px;
+  }
+
+  .sidenav{
+    width: 520px;
+    left: -600px;
+  }
+
+  .sidenav .close{
+    font-size: 70px;
+  }
+
+  .burger-icon span{
+    width: 101px;
+    height: 15px;
+    margin: 20px 0;
+  }
+}
